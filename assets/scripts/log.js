@@ -20,6 +20,10 @@ var log={
     hardware:function(t) {
 	this.log(HARDWARE,t);
     },
+    js:function(t,c) {
+	console.log(c);
+	throw "DumJS: "+t;
+    },
     kernel:function(t) {
 	this.log(KERNEL,t);
     },
