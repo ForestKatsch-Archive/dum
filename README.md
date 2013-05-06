@@ -1,4 +1,4 @@
-dum
+Dum OS emulator
 ===
 
-dum
+This is a full emulator for an OS based on the stack-based language Dum.
