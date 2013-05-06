@@ -204,7 +204,7 @@ var Core=function(id) {
 	    this.position+=1;
 	    if((new Date().getTime()-start_time) >= MAX_CORE_TIME)
 		break;
-	    var ins_string=this.instructions.toString();
+	    var ins_string=addCommas(this.instructions);
 	    display.dirty=true;
 	    display.content=[];
 	    for(var i=0;i<ins_string.length;i++) {
